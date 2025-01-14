@@ -24,7 +24,6 @@ This project demonstrates how to train a **Named Entity Recognition (NER)** mode
 
 - **Hugging Face Transformers** for model fine-tuning.  
 - **Python** for scripting and data manipulation.  
-- **PyTorch** as the deep learning framework.  
 
 ---
 
