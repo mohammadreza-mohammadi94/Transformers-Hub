@@ -82,7 +82,3 @@ The key components of the Encoder-Only Transformer implemented in the notebook a
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute as per the terms of the license.
-
---- 
-
-For additional details or queries, please feel free to reach out at [mr.mhmdi93@gmail.com](mailto:mr.mhmdi93@gmail.com).
