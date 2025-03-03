@@ -13,16 +13,7 @@ This project fine-tunes a **DistilBERT** model for Named Entity Recognition (NER
 - 📈 **Evaluation**: Computes precision, recall, F1-score, and accuracy using `seqeval`.
 - 🚀 **Inference Pipeline**: Deploys a trained model for entity recognition.
 
----
 
-## 📂 Dataset
-
-The dataset consists of restaurant-related queries labeled with **BIO-format NER tags**. The script loads training and test data from:
-
-- **Train Data**: [MIT Restaurant NER Train Set](https://raw.githubusercontent.com/laxmimerit/All-CSV-ML-Data-Files-Download/master/mit_restaurant_search_ner/train.bio)
-- **Test Data**: [MIT Restaurant NER Test Set](https://raw.githubusercontent.com/laxmimerit/All-CSV-ML-Data-Files-Download/master/mit_restaurant_search_ner/test.bio)
-
----
 
 ## 🚀 Installation
 
@@ -52,7 +43,6 @@ You can install them using:
 pip install transformers datasets torch numpy pandas evaluate seaborn matplotlib requests
 ```
 
----
 
 ## 🔧 Training the Model
 
@@ -69,13 +59,11 @@ This will:
 3. Train the model using Hugging Face's Trainer.
 4. Save the fine-tuned model in the `finetuned-ner/` directory.
 
----
 
 ## 📊 Model Evaluation
 
 After training, the model is evaluated using `seqeval`, which provides precision, recall, F1-score, and accuracy metrics.
 
----
 
 ## 🔎 Inference
 
@@ -99,8 +87,6 @@ print(ner_pipeline(example_text))
 ]
 ```
 
----
-
 ## 📜 File Structure
 
 ```
@@ -111,15 +97,12 @@ NER-DistilBERT/
 │── finetuned-ner/  # Directory where the trained model is saved
 ```
 
----
 
 ## 🎯 Future Improvements
 
 - Fine-tune on a larger NER dataset.
 - Implement hyperparameter tuning.
 - Deploy as an API using FastAPI.
-
----
 
 ## 📝 License
 
